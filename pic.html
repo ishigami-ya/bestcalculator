@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pic.css">
+    <script>
+        window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+    </script>
+</head>
+<body>
+    <div class="loader" ></div>
+    <p style="font-size: 23px;">Fucked if i know</p>
+    <img src="7a160746-6116-4d3d-adbd-b08d50d4e869.jfif" alt="">
+    <br>
+    <p style="font-size: 23px;">Hello World ?</p>
+</body>
+</html>
